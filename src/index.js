@@ -14,6 +14,7 @@ import Home from "./views/home";
 import SignIn from "./views/signIn";
 import SignUp from "./views/signUp";
 import completeProfileCard from "./views/completeProfileCard";
+import Dashboard from "./views/dashboard";
 
 ReactDOM.render(
   <Router>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path={"/signin"} component={SignIn} />
         <Route path={"/signup"} component={SignUp} />
         <Route path={"/profilecard"} component={completeProfileCard} />
+        <Route path={"/dashboard"} component={Dashboard} />
       </Switch>
     </App>
   </Router>,
