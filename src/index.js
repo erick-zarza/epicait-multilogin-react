@@ -15,6 +15,8 @@ import SignIn from "./views/signIn";
 import SignUp from "./views/signUp";
 import completeProfileCard from "./views/completeProfileCard";
 import Dashboard from "./views/dashboard";
+import PaymentOptions from "./views/paymentOptions";
+import PaypalPaymentOptions from "./views/paypalPaymentOptions";
 
 ReactDOM.render(
   <Router>
@@ -25,6 +27,8 @@ ReactDOM.render(
         <Route path={"/signup"} component={SignUp} />
         <Route path={"/profilecard"} component={completeProfileCard} />
         <Route path={"/dashboard"} component={Dashboard} />
+        <Route path={"/payment_options"} component={PaymentOptions} />
+        <Route path={"/payment_options_paypal"} component={PaypalPaymentOptions} />
       </Switch>
     </App>
   </Router>,

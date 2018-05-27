@@ -74,6 +74,7 @@ class SignUp extends Component {
                 <br />We ask all members to verify their IDs by connecting a
                 social account.
               </p>
+              <Link to="/dashboard">
               <Button
                 style={{
                   width: "100%",
@@ -95,6 +96,8 @@ class SignUp extends Component {
                   </Col>
                 </Row>
               </Button>
+              </Link>
+              <Link to="/dashboard">
               <Button
                 style={{
                   width: "100%",
@@ -117,6 +120,7 @@ class SignUp extends Component {
                   </Col>
                 </Row>
               </Button>
+              </Link>
               <hr style={{ border: "0.5px solid #e8e8e8" }} />
               <p>
                 Don’t have a social profile? Email us at <a>name@example.com</a>

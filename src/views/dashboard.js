@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Layout, Menu, Breadcrumb, Icon } from "antd";
+import { Link } from "react-router-dom";
+
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -24,13 +26,18 @@ class Dashboard extends Component {
                 style={{ height: "100%" }}
               >
                 <Menu.Item key="1">Dashboard</Menu.Item>
-                <Menu.Item key="2">Payment Options</Menu.Item>
+                <Menu.Item key="2">
+                  <Link to="/payment_options">
+                    Payment Options
+                  </Link>
+                </Menu.Item>
                 <Menu.Item key="3">Account Info</Menu.Item>
                 <Menu.Item key="4">Settings</Menu.Item>
               </Menu>
             </Sider>
             <Content style={{ padding: "0 24px", minHeight: 600 }}>
               <h1>User Dashboard</h1>
+              <hr/> 
             </Content>
           </Layout>
         </Content>
