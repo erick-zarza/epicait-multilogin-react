@@ -76,6 +76,7 @@ class SignIn extends Component {
           <Col xs={1} sm={3} md={6} lg={8} />
           <Col xs={20} sm={18} md={12} lg={8}>
             <Card title="LOG IN" style={{ width: "100%", padding: 20 }}>
+              <Link to="/dashboard">
               <Button
                 style={{
                   width: "100%",
@@ -97,6 +98,8 @@ class SignIn extends Component {
                   </Col>
                 </Row>
               </Button>
+              </Link>
+              <Link to="/dashboard">
               <Button
                 style={{
                   width: "100%",
@@ -119,6 +122,7 @@ class SignIn extends Component {
                   </Col>
                 </Row>
               </Button>
+              </Link>
               <p>OR</p>
               <EmailForm goRedirect={this.redirectToProfileCard} />
               <hr style={{ border: "0.5px solid #e8e8e8" }} />

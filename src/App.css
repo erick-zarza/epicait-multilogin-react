@@ -44,3 +44,12 @@ h1 {
 #profileCardForm .ant-form-item {
   margin-bottom: 0px;
 }
+#BankAccountForm .ant-row {
+  margin-bottom: 20px;
+}
+#BankAccountForm .ant-row .formColumn {
+  padding: 0px 20px;
+}
+#BankAccountForm .ant-row .formColumn .ant-form-item {
+  margin-bottom: 0px;
+}
